@@ -407,6 +407,15 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const hash = (s) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
   const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } };
+  // Tag outbound links so providers can see the visit came from this directory.
+  const REF = 'foss.patrickob.tech';
+  const withRef = (u) => {
+    try {
+      const url = new URL(u);
+      if (!url.searchParams.has('ref')) url.searchParams.set('ref', REF);
+      return url.toString();
+    } catch (e) { return u; }
+  };
   const initials = (name) => {
     const words = name.replace(/[^A-Za-z0-9 ]/g, ' ').trim().split(/\s+/);
     return (words.length > 1 ? words[0][0] + words[1][0] : name.slice(0, 1)).toUpperCase();
@@ -455,7 +464,7 @@
     if (!s.tags.includes('request')) tags.push('<span class="tag free">No request needed</span>');
     s.tags.forEach((t) => TAG_LABELS[t] && tags.push(`<span class="tag">${TAG_LABELS[t]}</span>`));
     if (s.status === 'changed') tags.push('<span class="tag changed">Changed</span>');
-    return `<a class="card" href="${esc(s.url)}" target="_blank" rel="noopener">
+    return `<a class="card" href="${esc(withRef(s.url))}" target="_blank" rel="noopener">
       <div class="card-top">
         ${s.icon
           ? `<span class="mono brand" style="background:${esc(s.iconBg)}" aria-hidden="true"><img src="assets/icons/${esc(s.icon)}.svg" alt="" width="22" height="22" loading="lazy"></span>`
@@ -499,7 +508,7 @@
 
   el('retired').innerHTML =
     `<summary>No longer free or discontinued <span>${retired.length}</span></summary>` +
-    retired.map((s) => `<div class="retired-row"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a><p>${esc(s.note)}</p></div>`).join('');
+    retired.map((s) => `<div class="retired-row"><a href="${esc(withRef(s.url))}" target="_blank" rel="noopener">${esc(s.name)}</a><p>${esc(s.note)}</p></div>`).join('');
 
   q.addEventListener('input', render);
   noRequest.addEventListener('change', render);
