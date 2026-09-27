@@ -9,6 +9,7 @@
 <meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
+<script>try{var t=localStorage.getItem('foss:theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t}catch(e){}</script>
 <link rel="canonical" href="https://foss.patrickob.tech/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://foss.patrickob.tech/">
@@ -35,9 +36,31 @@
     --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
     --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
     --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+    --segment-on: #ffffff;
+    --nav-h: 52px;
+    color-scheme: light;
+  }
+  /* Dark: follows the system unless the viewer picked a theme (data-theme). */
+  :root[data-theme="dark"] {
+    --bg: #000000;
+    --surface: #1c1c1e;
+    --label: #f5f5f7;
+    --label-2: #a1a1a6;
+    --label-3: #8e8e93;
+    --separator: rgba(255, 255, 255, 0.12);
+    --fill: rgba(118, 118, 128, 0.24);
+    --accent: #3fb927;
+    --accent-soft: rgba(63, 185, 39, 0.18);
+    --orange: #ffb340;
+    --orange-soft: rgba(255, 159, 10, 0.16);
+    --shadow: none;
+    --shadow-hover: none;
+    --material: rgba(0, 0, 0, 0.7);
+    --segment-on: #636366;
+    color-scheme: dark;
   }
   @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme="light"]) {
       --bg: #000000;
       --surface: #1c1c1e;
       --label: #f5f5f7;
@@ -52,11 +75,13 @@
       --shadow: none;
       --shadow-hover: none;
       --material: rgba(0, 0, 0, 0.7);
+      --segment-on: #636366;
+      color-scheme: dark;
     }
   }
 
   * { box-sizing: border-box; }
-  html { scroll-behavior: smooth; scroll-padding-top: 170px; -webkit-text-size-adjust: 100%; }
+  html { scroll-behavior: smooth; scroll-padding-top: calc(170px + var(--nav-h)); -webkit-text-size-adjust: 100%; }
   body {
     margin: 0;
     background: var(--bg);
@@ -82,6 +107,73 @@
     position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
     overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
   }
+
+  /* Navbar (matches Glyphyard and Spillcheck) */
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: var(--material);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 0.5px solid var(--separator);
+  }
+  .navbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    height: var(--nav-h);
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    opacity: 0;
+    transform: translateY(6px);
+    pointer-events: none;
+    transition: opacity 0.3s var(--ease), transform 0.3s var(--ease);
+  }
+  .brand img { height: 22px; width: auto; display: block; }
+  .navbar.scrolled .brand { opacity: 1; transform: none; pointer-events: auto; }
+  .nav-actions { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+  .theme-toggle {
+    display: inline-flex;
+    flex: none;
+    padding: 2px;
+    border-radius: 9px;
+    background: var(--fill);
+  }
+  .theme-toggle button {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 7px;
+    background: transparent;
+    color: var(--label-2);
+    cursor: pointer;
+    transition: background 0.15s var(--ease), color 0.15s var(--ease);
+  }
+  .theme-toggle button:hover { color: var(--label); }
+  .theme-toggle button[aria-checked="true"] {
+    background: var(--segment-on);
+    color: var(--label);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+  .theme-toggle svg { width: 16px; height: 16px; }
+  .github-link {
+    display: grid;
+    flex: none;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+    color: var(--label-2);
+    transition: background 0.15s var(--ease), color 0.15s var(--ease);
+  }
+  .github-link:hover { background: var(--fill); color: var(--label); }
+  .github-link svg { width: 20px; height: 20px; }
 
   /* Hero */
   .hero { padding: clamp(56px, 10vw, 112px) 0 clamp(36px, 5vw, 56px); text-align: center; }
@@ -121,7 +213,7 @@
   /* Toolbar */
   .toolbar {
     position: sticky;
-    top: 0;
+    top: var(--nav-h);
     z-index: 20;
     padding: 12px 0;
     background: var(--material);
@@ -266,8 +358,9 @@
   }
   .mono img { width: 22px; height: 22px; display: block; }
   .mono.brand { box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06); }
+  :root[data-theme="dark"] .mono.brand { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14); }
   @media (prefers-color-scheme: dark) {
-    .mono.brand { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14); }
+    :root:not([data-theme="light"]) .mono.brand { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14); }
   }
   .card h3 { font-size: 17px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.25; }
   .card .host { font-size: 13px; color: var(--label-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -349,7 +442,7 @@
     .toolbar-row { flex-wrap: wrap; }
     .search { flex-basis: 100%; }
     .switch { flex: 1; justify-content: space-between; }
-    html { scroll-padding-top: 220px; }
+    html { scroll-padding-top: calc(220px + var(--nav-h)); }
   }
   @media (hover: none) { .search kbd { display: none; } }
   @media (prefers-reduced-motion: reduce) {
@@ -360,7 +453,31 @@
 </head>
 <body>
 
-<header class="hero container">
+<nav class="navbar" id="navbar">
+  <div class="container navbar-inner">
+    <a class="brand" href="#top" aria-label="Free for Open Source, back to top">
+      <img src="assets/logo/main-green.svg" alt="" width="187" height="22">
+    </a>
+    <div class="nav-actions">
+      <div class="theme-toggle" role="radiogroup" aria-label="Appearance">
+        <button type="button" role="radio" data-value="system" aria-checked="true" aria-label="Match system appearance" title="Match system appearance">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="14" x="2" y="3" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        </button>
+        <button type="button" role="radio" data-value="light" aria-checked="false" aria-label="Light appearance" title="Light appearance">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2m-7.07-17.07 1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+        <button type="button" role="radio" data-value="dark" aria-checked="false" aria-label="Dark appearance" title="Dark appearance">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+      </div>
+      <a class="github-link" href="https://github.com/obrienafc/foss" target="_blank" rel="noopener" aria-label="FOSS on GitHub" title="FOSS on GitHub">
+        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero container" id="top">
   <img class="hero-logo" src="assets/logo/main-green.svg" alt="Free for Open Source" width="767" height="90">
   <h1>Free tools for <span>open source.</span></h1>
   <p class="lede">A hand-checked directory of services that open source projects can use for free: hosting, CI, monitoring, localization, IDEs and more.</p>
@@ -399,11 +516,40 @@
 </footer>
 
 <script>
+(function () {
+  const KEY = 'foss:theme';
+  const root = document.documentElement;
+  const buttons = [...document.querySelectorAll('.theme-toggle button')];
+  const apply = (theme) => {
+    if (theme === 'system') delete root.dataset.theme;
+    else root.dataset.theme = theme;
+    buttons.forEach((b) => b.setAttribute('aria-checked', String(b.dataset.value === theme)));
+  };
+  apply(root.dataset.theme || 'system');
+  buttons.forEach((b) => b.addEventListener('click', () => {
+    const theme = b.dataset.value;
+    apply(theme);
+    try {
+      if (theme === 'system') localStorage.removeItem(KEY);
+      else localStorage.setItem(KEY, theme);
+    } catch (e) {}
+  }));
+
+  // Show the logo in the navbar once the hero logo has scrolled under it.
+  const navbar = document.getElementById('navbar');
+  new IntersectionObserver(([entry]) => {
+    // Not intersecting and above the bar (rather than below the fold) means it scrolled away.
+    navbar.classList.toggle('scrolled', !entry.isIntersecting && entry.boundingClientRect.top < navbar.offsetHeight);
+  }, { rootMargin: '-52px 0px 0px 0px' }).observe(document.querySelector('.hero-logo'));
+})();
+</script>
+<script>
 (async function () {
   const COLORS = ['#0a84ff', '#30b158', '#ff9f0a', '#ff375f', '#bf5af2', '#5e5ce6', '#64d2ff', '#ff6b3d', '#34c7a5', '#a2845e'];
   const TAG_LABELS = { request: 'Request needed', limits: 'Has limits', strict: 'Strict rules' };
 
   const el = (id) => document.getElementById(id);
+  const navbarHeight = () => document.getElementById('navbar').offsetHeight;
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const hash = (s) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7);
   const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } };
@@ -455,7 +601,8 @@
     category = btn.dataset.cat;
     renderChips();
     render();
-    window.scrollTo({ top: el('toolbar').offsetTop, behavior: 'smooth' });
+    const hero = document.querySelector('.hero');
+    window.scrollTo({ top: hero.offsetTop + hero.offsetHeight - navbarHeight(), behavior: 'smooth' });
   });
 
   const card = (s) => {
@@ -518,7 +665,7 @@
   });
 
   const toolbar = el('toolbar');
-  new IntersectionObserver(([entry]) => toolbar.classList.toggle('stuck', entry.intersectionRatio < 1), { threshold: 1, rootMargin: '-1px 0px 0px 0px' }).observe(toolbar);
+  new IntersectionObserver(([entry]) => toolbar.classList.toggle('stuck', entry.intersectionRatio < 1), { threshold: 1, rootMargin: '-53px 0px 0px 0px' }).observe(toolbar);
 
   renderChips();
   render();
