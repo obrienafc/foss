@@ -10,7 +10,7 @@
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/obrienafc/freeforopensource"></a>
 </p>
 
-**Prefer to search and filter? The same list is available as a website in [`index.html`](index.html).**
+**Search and filter the list at [foss.patrickob.me](https://foss.patrickob.me).**
 
 Last reviewed: 2026-09-27. Offers change often, so always check the provider's own terms.
 
@@ -23,7 +23,7 @@ Last reviewed: 2026-09-27. Offers change often, so always check the provider's o
 - [Public Cloud](#public-cloud)
 - [Documentation](#documentation)
 - [Continuous Integration](#continuous-integration)
-- [Browser Testing](#browser-testing)
+- [Browser & Visual Testing](#browser--visual-testing)
 - [Monitoring](#monitoring)
 - [Code Quality & Security](#code-quality--security)
 - [Localization](#localization)
@@ -34,6 +34,7 @@ Last reviewed: 2026-09-27. Offers change often, so always check the provider's o
 - [Chat & Support](#chat--support)
 - [SSL & CDN](#ssl--cdn)
 - [Design & Media](#design--media)
+- [Funding](#funding)
 - [Utilities & Services](#utilities--services)
 - [No longer free or discontinued](#no-longer-free-or-discontinued)
 
@@ -50,6 +51,7 @@ Last reviewed: 2026-09-27. Offers change often, so always check the provider's o
 - [PythonAnywhere](https://www.pythonanywhere.com/) - Hosting for Python web apps. - has limits
 - [SourceForge](https://sourceforge.net/) - Git, Mercurial and SVN project hosting with downloads.
 - [GitHub Pages](https://pages.github.com/) - Static site hosting straight from a repository.
+- [Cloudsmith](https://help.cloudsmith.io/docs/open-source-hosting-policy) - Package repositories for most formats, with 50 GB storage and 200 GB bandwidth a month for open source. Requires attribution in your README. - has limits
 
 ## Public Cloud
 
@@ -60,12 +62,17 @@ Last reviewed: 2026-09-27. Offers change often, so always check the provider's o
 - [Vercel](https://vercel.com/open-source-program) - Hobby tier with static and serverless hosting and a global CDN, plus an open source sponsorship programme. - request needed
 - [Netlify](https://www.netlify.com/open-source/) - Open Source plan with Pro features for qualifying projects. - request needed
 - [Cloudflare Pages](https://pages.cloudflare.com/) - Static and full-stack hosting on Cloudflare's network, generous free tier.
+- [AWS Open Source Credits](https://aws.amazon.com/blogs/opensource/aws-promotional-credits-open-source-projects/) - AWS promotional credits for OSI-licensed projects, typically used for CI, testing and artifact storage. - request needed
+- [OSU Open Source Lab](https://osuosl.org/services/) - Nonprofit hosting for open source projects, including POWER, AArch64 and IBM Z machines. - request needed
+- [Neon](https://neon.com/programs/open-source) - Serverless Postgres. The open source programme gives up to $5,000 in credit a year. - request needed
+- [Upstash](https://upstash.com/open-source) - Serverless Redis, vector and queues. Open source projects can get up to $1,000 a month in credit. - request needed
 
 ## Documentation
 
 - [GitBook](https://www.gitbook.com/) - Documentation platform, free for qualifying open source projects. - request needed
 - [Read the Docs](https://readthedocs.org/) - Builds, versions and hosts your docs. Free for open source (ad-supported).
 - [Atlassian Confluence](https://www.atlassian.com/software/views/open-source-license-request) - Team wiki. Free Cloud licence for open source projects. - request needed
+- [Mintlify](https://www.mintlify.com/oss-program) - Hosted documentation. Non-commercial open source projects get the Pro plan free. - request needed
 
 ## Continuous Integration
 
@@ -87,11 +94,16 @@ Last reviewed: 2026-09-27. Offers change often, so always check the provider's o
   - _Changed:_ travis-ci.org closed in 2021 and unlimited free builds ended. Open source projects can request OSS credits.
 - [Atlassian Bamboo](https://www.atlassian.com/software/bamboo) - Self-hosted CI/CD.
   - _Changed:_ Bamboo is now Data Center only, and Atlassian's open source licences mainly cover Cloud products. Check eligibility before relying on it.
+- [Buildkite](https://buildkite.com/platform/pipelines/public/) - CI/CD on your own agents, with public pipelines and free accounts for open source. - request needed
+- [Mergify](https://mergify.com/pricing) - Merge queue, CI insights and merge protections for GitHub, free for open source.
 
-## Browser Testing
+## Browser & Visual Testing
 
 - [BrowserStack](https://www.browserstack.com/open-source) - Live and automated browser testing, free for open source. - request needed
 - [TestingBot](https://testingbot.com/) - Browser and mobile testing, free for open source. - request needed
+- [TestMu AI (LambdaTest)](https://www.testmu.ai/open-source/) - Cross-browser and mobile testing on thousands of browsers and devices, free for open source. Formerly LambdaTest. - request needed
+- [Chromatic](https://www.chromatic.com/pricing) - Visual testing and UI review for Storybook, with a free plan open source projects can use. - has limits
+- [Argos](https://argos-ci.com/docs/learn/billing-and-subscription/open-source) - Visual regression testing in CI. Sponsored free usage for non-commercial open source. - request needed - **strict rules**
 
 ## Monitoring
 
@@ -110,6 +122,13 @@ Last reviewed: 2026-09-27. Offers change often, so always check the provider's o
 - [Qlty](https://qlty.sh/) - Code quality and coverage, free for open source. The successor to Code Climate Quality.
 - [Snyk](https://snyk.io/) - Finds and fixes vulnerabilities in dependencies, free for open source.
 - [SonarQube Cloud](https://www.sonarsource.com/products/sonarqube/cloud/) - Code quality and security analysis, free for public projects. Formerly SonarCloud.
+- [CodeRabbit](https://www.coderabbit.ai/oss) - AI code review on pull requests, with Pro features free on every public repository.
+- [Coverity Scan](https://scan.coverity.com/) - Deep static analysis for C, C++, Java, C# and more, free for open source. - has limits
+- [OSS-Fuzz](https://github.com/google/oss-fuzz) - Google's continuous fuzzing service for widely used open source software. - request needed - **strict rules**
+- [DeepSource](https://deepsource.com/pricing) - Static analysis and autofix, free for unlimited open source repositories.
+- [Socket](https://socket.dev/) - Detects malicious and risky dependencies in pull requests, free for open source.
+- [Semgrep](https://semgrep.dev/) - Static analysis, dependency and secrets scanning. The engine is open source, and the platform is free for up to 10 contributors. - has limits
+- [GitGuardian](https://www.gitguardian.com/) - Detects leaked secrets in your repositories, free for public repositories.
 
 ## Localization
 
@@ -120,6 +139,7 @@ Last reviewed: 2026-09-27. Offers change often, so always check the provider's o
 - [Transifex](https://www.transifex.com/open-source/) - Localization platform with an open source programme. - request needed
 - [Translation.io](https://translation.io/) - Localization for Rails and other frameworks. - request needed
 - [Weblate](https://hosted.weblate.org/hosting/) - Hosted continuous localization, free for libre projects. - request needed
+- [Tolgee](https://tolgee.io/) - Open source localization platform with in-context translation. The cloud version is free for open source.
 
 ## Profiling
 
@@ -140,6 +160,7 @@ Last reviewed: 2026-09-27. Offers change often, so always check the provider's o
 - [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) - Full-featured IDE, free for open source and individual developers.
 - [VSCodium](https://vscodium.com/) - Binary releases of VS Code without Microsoft branding or telemetry.
 - [1Password](https://github.com/1Password/for-open-source) - Password manager for teams, free for open source projects. - request needed
+- [GitHub Copilot](https://docs.github.com/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer) - AI pair programmer. Copilot Pro is free for maintainers of popular open source projects. - **strict rules**
 
 ## Project Management
 
@@ -163,6 +184,7 @@ Last reviewed: 2026-09-27. Offers change often, so always check the provider's o
 - [Cloudflare](https://www.cloudflare.com/lp/project-alexandria/) - Free SSL, CDN, DNS and DDoS protection for everyone. Project Alexandria offers extra help to open source.
 - [Let's Encrypt](https://letsencrypt.org/) - Free, automated and open certificate authority.
 - [Fastly Fast Forward](https://www.fastly.com/fast-forward) - Free CDN and edge services for open source projects. - request needed
+- [jsDelivr](https://www.jsdelivr.com/) - Free, fast CDN for files from npm and GitHub, with no bandwidth limits.
 
 ## Design & Media
 
@@ -172,12 +194,17 @@ Last reviewed: 2026-09-27. Offers change often, so always check the provider's o
 - [Unsplash](https://unsplash.com/) - Free photos for any purpose, credit appreciated but not required.
 - [Fontpair](https://www.fontpair.co/) - Helps you pair free, open source Google Fonts.
 
+## Funding
+
+- [GitHub Sponsors](https://github.com/sponsors) - Let people fund your project, with no fees on personal accounts.
+- [Open Source Collective](https://oscollective.org/) - Fiscal hosting that handles donations, expenses and taxes for your project, for a 10% fee. - has limits
+- [thanks.dev](https://thanks.dev/) - Companies fund their dependencies automatically. Maintainers sign in to receive donations.
+
 ## Utilities & Services
 
 - [Algolia DocSearch](https://docsearch.algolia.com/) - Hosted search for technical documentation, free for open source docs. - request needed
 - [Auth0](https://auth0.com/) - Authentication and single sign-on with a free plan and open source sponsorship. - request needed
 - [Docker Sponsored Open Source](https://www.docker.com/community/open-source/application/) - Unlimited pulls and a badge on Docker Hub for qualifying projects. - request needed
-- [GitHub Sponsors](https://github.com/sponsors) - Let people fund your project, with no fees on personal accounts.
 - [Mailtrap](https://mailtrap.io/) - Email testing sandbox with a free plan. - has limits
 - [SDKMAN!](https://sdkman.io/) - Manage parallel versions of JVM SDKs.
 

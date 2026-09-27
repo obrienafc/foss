@@ -36,7 +36,7 @@ let md = `<p align="center">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/obrienafc/freeforopensource"></a>
 </p>
 
-**Prefer to search and filter? The same list is available as a website in [\`index.html\`](index.html).**
+**Search and filter the list at [foss.patrickob.me](https://foss.patrickob.me).**
 
 Last reviewed: ${updated}. Offers change often, so always check the provider's own terms.
 

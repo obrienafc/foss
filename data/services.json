@@ -78,6 +78,17 @@
       "note": ""
     },
     {
+      "category": "Project Hosting",
+      "name": "Cloudsmith",
+      "url": "https://help.cloudsmith.io/docs/open-source-hosting-policy",
+      "description": "Package repositories for most formats, with 50 GB storage and 200 GB bandwidth a month for open source. Requires attribution in your README.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
       "category": "Public Cloud",
       "name": "DigitalOcean",
       "url": "https://www.digitalocean.com/open-source/credits-for-projects",
@@ -142,6 +153,50 @@
       "note": ""
     },
     {
+      "category": "Public Cloud",
+      "name": "AWS Open Source Credits",
+      "url": "https://aws.amazon.com/blogs/opensource/aws-promotional-credits-open-source-projects/",
+      "description": "AWS promotional credits for OSI-licensed projects, typically used for CI, testing and artifact storage.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Public Cloud",
+      "name": "OSU Open Source Lab",
+      "url": "https://osuosl.org/services/",
+      "description": "Nonprofit hosting for open source projects, including POWER, AArch64 and IBM Z machines.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Public Cloud",
+      "name": "Neon",
+      "url": "https://neon.com/programs/open-source",
+      "description": "Serverless Postgres. The open source programme gives up to $5,000 in credit a year.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Public Cloud",
+      "name": "Upstash",
+      "url": "https://upstash.com/open-source",
+      "description": "Serverless Redis, vector and queues. Open source projects can get up to $1,000 a month in credit.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
       "category": "Documentation",
       "name": "GitBook",
       "url": "https://www.gitbook.com/",
@@ -166,6 +221,17 @@
       "name": "Atlassian Confluence",
       "url": "https://www.atlassian.com/software/views/open-source-license-request",
       "description": "Team wiki. Free Cloud licence for open source projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Documentation",
+      "name": "Mintlify",
+      "url": "https://www.mintlify.com/oss-program",
+      "description": "Hosted documentation. Non-commercial open source projects get the Pro plan free.",
       "tags": [
         "request"
       ],
@@ -330,7 +396,27 @@
       "note": "CloudBees shut CodeShip down on 31 January 2026."
     },
     {
-      "category": "Browser Testing",
+      "category": "Continuous Integration",
+      "name": "Buildkite",
+      "url": "https://buildkite.com/platform/pipelines/public/",
+      "description": "CI/CD on your own agents, with public pipelines and free accounts for open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Mergify",
+      "url": "https://mergify.com/pricing",
+      "description": "Merge queue, CI insights and merge protections for GitHub, free for open source.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Browser & Visual Testing",
       "name": "BrowserStack",
       "url": "https://www.browserstack.com/open-source",
       "description": "Live and automated browser testing, free for open source.",
@@ -341,12 +427,46 @@
       "note": ""
     },
     {
-      "category": "Browser Testing",
+      "category": "Browser & Visual Testing",
       "name": "TestingBot",
       "url": "https://testingbot.com/",
       "description": "Browser and mobile testing, free for open source.",
       "tags": [
         "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Browser & Visual Testing",
+      "name": "TestMu AI (LambdaTest)",
+      "url": "https://www.testmu.ai/open-source/",
+      "description": "Cross-browser and mobile testing on thousands of browsers and devices, free for open source. Formerly LambdaTest.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Browser & Visual Testing",
+      "name": "Chromatic",
+      "url": "https://www.chromatic.com/pricing",
+      "description": "Visual testing and UI review for Storybook, with a free plan open source projects can use.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Browser & Visual Testing",
+      "name": "Argos",
+      "url": "https://argos-ci.com/docs/learn/billing-and-subscription/open-source",
+      "description": "Visual regression testing in CI. Sponsored free usage for non-commercial open source.",
+      "tags": [
+        "request",
+        "strict"
       ],
       "status": "active",
       "note": ""
@@ -488,6 +608,76 @@
       "note": "The service has been offline for years."
     },
     {
+      "category": "Code Quality & Security",
+      "name": "CodeRabbit",
+      "url": "https://www.coderabbit.ai/oss",
+      "description": "AI code review on pull requests, with Pro features free on every public repository.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "Coverity Scan",
+      "url": "https://scan.coverity.com/",
+      "description": "Deep static analysis for C, C++, Java, C# and more, free for open source.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "OSS-Fuzz",
+      "url": "https://github.com/google/oss-fuzz",
+      "description": "Google's continuous fuzzing service for widely used open source software.",
+      "tags": [
+        "request",
+        "strict"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "DeepSource",
+      "url": "https://deepsource.com/pricing",
+      "description": "Static analysis and autofix, free for unlimited open source repositories.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "Socket",
+      "url": "https://socket.dev/",
+      "description": "Detects malicious and risky dependencies in pull requests, free for open source.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "Semgrep",
+      "url": "https://semgrep.dev/",
+      "description": "Static analysis, dependency and secrets scanning. The engine is open source, and the platform is free for up to 10 contributors.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "GitGuardian",
+      "url": "https://www.gitguardian.com/",
+      "description": "Detects leaked secrets in your repositories, free for public repositories.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
       "category": "Localization",
       "name": "Crowdin",
       "url": "https://crowdin.com/page/open-source-project-setup-request",
@@ -559,6 +749,15 @@
       "tags": [
         "request"
       ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Localization",
+      "name": "Tolgee",
+      "url": "https://tolgee.io/",
+      "description": "Open source localization platform with in-context translation. The cloud version is free for open source.",
+      "tags": [],
       "status": "active",
       "note": ""
     },
@@ -687,6 +886,17 @@
       "tags": [],
       "status": "retired",
       "note": "JetBrains discontinued AppCode."
+    },
+    {
+      "category": "IDEs & Tools",
+      "name": "GitHub Copilot",
+      "url": "https://docs.github.com/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-your-copilot-subscription/getting-free-access-to-copilot-as-a-student-teacher-or-maintainer",
+      "description": "AI pair programmer. Copilot Pro is free for maintainers of popular open source projects.",
+      "tags": [
+        "strict"
+      ],
+      "status": "active",
+      "note": ""
     },
     {
       "category": "Project Management",
@@ -845,6 +1055,15 @@
       "note": "A 2005-era offer with no current programme. Use Let's Encrypt."
     },
     {
+      "category": "SSL & CDN",
+      "name": "jsDelivr",
+      "url": "https://www.jsdelivr.com/",
+      "description": "Free, fast CDN for files from npm and GitHub, with no bandwidth limits.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
       "category": "Design & Media",
       "name": "Canva",
       "url": "https://www.canva.com/pricing/",
@@ -899,6 +1118,35 @@
       "note": "Only a 30-day free trial, not a free offer."
     },
     {
+      "category": "Funding",
+      "name": "GitHub Sponsors",
+      "url": "https://github.com/sponsors",
+      "description": "Let people fund your project, with no fees on personal accounts.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Funding",
+      "name": "Open Source Collective",
+      "url": "https://oscollective.org/",
+      "description": "Fiscal hosting that handles donations, expenses and taxes for your project, for a 10% fee.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Funding",
+      "name": "thanks.dev",
+      "url": "https://thanks.dev/",
+      "description": "Companies fund their dependencies automatically. Maintainers sign in to receive donations.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
       "category": "Utilities & Services",
       "name": "Algolia DocSearch",
       "url": "https://docsearch.algolia.com/",
@@ -928,15 +1176,6 @@
       "tags": [
         "request"
       ],
-      "status": "active",
-      "note": ""
-    },
-    {
-      "category": "Utilities & Services",
-      "name": "GitHub Sponsors",
-      "url": "https://github.com/sponsors",
-      "description": "Let people fund your project, with no fees on personal accounts.",
-      "tags": [],
       "status": "active",
       "note": ""
     },
