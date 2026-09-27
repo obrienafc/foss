@@ -8,7 +8,9 @@
       "description": "Git hosting, free for up to 5 users; community licences for open source projects.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "bitbucket",
+      "iconBg": "#0052CC"
     },
     {
       "category": "Version Control",
@@ -17,7 +19,9 @@
       "description": "Free as in freedom Git hosting for open source, run by a nonprofit association. Includes Codeberg Pages.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "codeberg",
+      "iconBg": "#2185D0"
     },
     {
       "category": "Version Control",
@@ -26,7 +30,9 @@
       "description": "Free public and private repositories.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "github",
+      "iconBg": "#181717"
     },
     {
       "category": "Version Control",
@@ -37,7 +43,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "gitlab",
+      "iconBg": "#FC6D26"
     },
     {
       "category": "Project Hosting",
@@ -46,7 +54,9 @@
       "description": ".NET package hosting.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "nuget",
+      "iconBg": "#004880"
     },
     {
       "category": "Project Hosting",
@@ -57,7 +67,9 @@
         "limits"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "pythonanywhere",
+      "iconBg": "#1D9FD7"
     },
     {
       "category": "Project Hosting",
@@ -66,7 +78,9 @@
       "description": "Git, Mercurial and SVN project hosting with downloads.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "sourceforge",
+      "iconBg": "#FF6600"
     },
     {
       "category": "Project Hosting",
@@ -75,7 +89,9 @@
       "description": "Static site hosting straight from a repository.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "github",
+      "iconBg": "#181717"
     },
     {
       "category": "Project Hosting",
@@ -86,7 +102,9 @@
         "limits"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "cloudsmith",
+      "iconBg": "#2A6FE1"
     },
     {
       "category": "Public Cloud",
@@ -97,7 +115,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "digitalocean",
+      "iconBg": "#0080FF"
     },
     {
       "category": "Public Cloud",
@@ -108,7 +128,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "redhatopenshift",
+      "iconBg": "#EE0000"
     },
     {
       "category": "Public Cloud",
@@ -130,7 +152,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "vercel",
+      "iconBg": "#000000"
     },
     {
       "category": "Public Cloud",
@@ -141,7 +165,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "netlify",
+      "iconBg": "#00C7B7"
     },
     {
       "category": "Public Cloud",
@@ -150,7 +176,9 @@
       "description": "Static and full-stack hosting on Cloudflare's network, generous free tier.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "cloudflarepages",
+      "iconBg": "#F38020"
     },
     {
       "category": "Public Cloud",
@@ -183,7 +211,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "neon",
+      "iconBg": "#34D59A"
     },
     {
       "category": "Public Cloud",
@@ -194,7 +224,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "upstash",
+      "iconBg": "#00E9A3"
     },
     {
       "category": "Documentation",
@@ -205,7 +237,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "gitbook",
+      "iconBg": "#BBDDE5"
     },
     {
       "category": "Documentation",
@@ -214,7 +248,9 @@
       "description": "Builds, versions and hosts your docs. Free for open source (ad-supported).",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "readthedocs",
+      "iconBg": "#000000"
     },
     {
       "category": "Documentation",
@@ -225,7 +261,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "confluence",
+      "iconBg": "#172B4D"
     },
     {
       "category": "Documentation",
@@ -236,7 +274,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "mintlify",
+      "iconBg": "#18E299"
     },
     {
       "category": "Continuous Integration",
@@ -245,7 +285,9 @@
       "description": "CI/CD built into GitHub. Free for public repositories on standard runners.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "githubactions",
+      "iconBg": "#2088FF"
     },
     {
       "category": "Continuous Integration",
@@ -254,7 +296,9 @@
       "description": "CI for Windows, Linux and macOS, free for open source.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "appveyor",
+      "iconBg": "#00B3E0"
     },
     {
       "category": "Continuous Integration",
@@ -274,7 +318,9 @@
       "description": "CI/CD for mobile apps. Public apps get Developer plan features free.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "bitrise",
+      "iconBg": "#683D87"
     },
     {
       "category": "Continuous Integration",
@@ -283,7 +329,9 @@
       "description": "CI/CD with a free plan and extra build credits for open source.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "circleci",
+      "iconBg": "#343434"
     },
     {
       "category": "Continuous Integration",
@@ -292,7 +340,9 @@
       "description": "Code coverage reporting, free for open source. Now part of Sentry.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "codecov",
+      "iconBg": "#F01F7A"
     },
     {
       "category": "Continuous Integration",
@@ -301,7 +351,9 @@
       "description": "Code coverage history, free for open source.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "coveralls",
+      "iconBg": "#3F5767"
     },
     {
       "category": "Continuous Integration",
@@ -334,7 +386,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "saucelabs",
+      "iconBg": "#3DDC91"
     },
     {
       "category": "Continuous Integration",
@@ -343,7 +397,9 @@
       "description": "CI and code analysis for GitHub and Bitbucket, free for open source.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "scrutinizerci",
+      "iconBg": "#8A9296"
     },
     {
       "category": "Continuous Integration",
@@ -352,7 +408,9 @@
       "description": "Hosted CI/CD, free for open source. The platform itself is open source (Apache 2.0) since 2025.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "semaphoreci",
+      "iconBg": "#19A974"
     },
     {
       "category": "Continuous Integration",
@@ -364,7 +422,9 @@
         "strict"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "teamcity",
+      "iconBg": "#000000"
     },
     {
       "category": "Continuous Integration",
@@ -375,7 +435,9 @@
         "request"
       ],
       "status": "changed",
-      "note": "travis-ci.org closed in 2021 and unlimited free builds ended. Open source projects can request OSS credits."
+      "note": "travis-ci.org closed in 2021 and unlimited free builds ended. Open source projects can request OSS credits.",
+      "icon": "travisci",
+      "iconBg": "#3EAAAF"
     },
     {
       "category": "Continuous Integration",
@@ -384,7 +446,9 @@
       "description": "Self-hosted CI/CD.",
       "tags": [],
       "status": "changed",
-      "note": "Bamboo is now Data Center only, and Atlassian's open source licences mainly cover Cloud products. Check eligibility before relying on it."
+      "note": "Bamboo is now Data Center only, and Atlassian's open source licences mainly cover Cloud products. Check eligibility before relying on it.",
+      "icon": "bamboo",
+      "iconBg": "#0052CC"
     },
     {
       "category": "Continuous Integration",
@@ -393,7 +457,9 @@
       "description": "Hosted CI.",
       "tags": [],
       "status": "retired",
-      "note": "CloudBees shut CodeShip down on 31 January 2026."
+      "note": "CloudBees shut CodeShip down on 31 January 2026.",
+      "icon": "codeship",
+      "iconBg": "#004466"
     },
     {
       "category": "Continuous Integration",
@@ -404,7 +470,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "buildkite",
+      "iconBg": "#14CC80"
     },
     {
       "category": "Continuous Integration",
@@ -457,7 +525,9 @@
         "limits"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "chromatic",
+      "iconBg": "#FC521F"
     },
     {
       "category": "Browser & Visual Testing",
@@ -491,7 +561,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "datadog",
+      "iconBg": "#632CA6"
     },
     {
       "category": "Monitoring",
@@ -524,7 +596,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "sentry",
+      "iconBg": "#362D59"
     },
     {
       "category": "Code Quality & Security",
@@ -533,7 +607,9 @@
       "description": "CodeQL security analysis, free for public repositories. The successor to LGTM.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "github",
+      "iconBg": "#181717"
     },
     {
       "category": "Code Quality & Security",
@@ -542,7 +618,9 @@
       "description": "Automatic dependency updates and security alerts on GitHub.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "dependabot",
+      "iconBg": "#025E8C"
     },
     {
       "category": "Code Quality & Security",
@@ -551,7 +629,9 @@
       "description": "Automated dependency updates for most languages and platforms.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "renovate",
+      "iconBg": "#308BE3"
     },
     {
       "category": "Code Quality & Security",
@@ -560,7 +640,9 @@
       "description": "Automated code review for 40+ languages, free for open source.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "codacy",
+      "iconBg": "#222F29"
     },
     {
       "category": "Code Quality & Security",
@@ -569,7 +651,9 @@
       "description": "Code quality and coverage, free for open source. The successor to Code Climate Quality.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "qlty",
+      "iconBg": "#66FAEC"
     },
     {
       "category": "Code Quality & Security",
@@ -578,7 +662,9 @@
       "description": "Finds and fixes vulnerabilities in dependencies, free for open source.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "snyk",
+      "iconBg": "#4C4A73"
     },
     {
       "category": "Code Quality & Security",
@@ -587,7 +673,9 @@
       "description": "Code quality and security analysis, free for public projects. Formerly SonarCloud.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "sonarqubecloud",
+      "iconBg": "#126ED3"
     },
     {
       "category": "Code Quality & Security",
@@ -614,7 +702,9 @@
       "description": "AI code review on pull requests, with Pro features free on every public repository.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "coderabbit",
+      "iconBg": "#FF570A"
     },
     {
       "category": "Code Quality & Security",
@@ -637,7 +727,9 @@
         "strict"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "google",
+      "iconBg": "#4285F4"
     },
     {
       "category": "Code Quality & Security",
@@ -655,7 +747,9 @@
       "description": "Detects malicious and risky dependencies in pull requests, free for open source.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "socket",
+      "iconBg": "#C93CD7"
     },
     {
       "category": "Code Quality & Security",
@@ -686,7 +780,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "crowdin",
+      "iconBg": "#2E3340"
     },
     {
       "category": "Localization",
@@ -695,7 +791,9 @@
       "description": "Community translation platform for open source projects.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "launchpad",
+      "iconBg": "#E95420"
     },
     {
       "category": "Localization",
@@ -728,7 +826,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "transifex",
+      "iconBg": "#0064AB"
     },
     {
       "category": "Localization",
@@ -750,7 +850,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "weblate",
+      "iconBg": "#2ECCAA"
     },
     {
       "category": "Localization",
@@ -815,7 +917,9 @@
         "limits"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "brevo",
+      "iconBg": "#0B996E"
     },
     {
       "category": "Email",
@@ -826,7 +930,9 @@
         "limits"
       ],
       "status": "changed",
-      "note": "Limits cut several times since 2022, most recently in January 2026 (it was 2,000 subscribers)."
+      "note": "Limits cut several times since 2022, most recently in January 2026 (it was 2,000 subscribers).",
+      "icon": "mailchimp",
+      "iconBg": "#FFE01B"
     },
     {
       "category": "Email",
@@ -847,7 +953,9 @@
         "strict"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "jetbrains",
+      "iconBg": "#000000"
     },
     {
       "category": "IDEs & Tools",
@@ -865,7 +973,9 @@
       "description": "Binary releases of VS Code without Microsoft branding or telemetry.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "vscodium",
+      "iconBg": "#2F80ED"
     },
     {
       "category": "IDEs & Tools",
@@ -876,7 +986,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "1password",
+      "iconBg": "#145FE4"
     },
     {
       "category": "IDEs & Tools",
@@ -896,7 +1008,9 @@
         "strict"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "githubcopilot",
+      "iconBg": "#000000"
     },
     {
       "category": "Project Management",
@@ -918,7 +1032,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "jira",
+      "iconBg": "#0052CC"
     },
     {
       "category": "Project Management",
@@ -949,7 +1065,9 @@
         "limits"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "trello",
+      "iconBg": "#0052CC"
     },
     {
       "category": "Project Management",
@@ -981,7 +1099,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "discourse",
+      "iconBg": "#000000"
     },
     {
       "category": "Project Management",
@@ -1003,7 +1123,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "chatwoot",
+      "iconBg": "#1F93FF"
     },
     {
       "category": "Chat & Support",
@@ -1014,7 +1136,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "zulip",
+      "iconBg": "#6492FE"
     },
     {
       "category": "SSL & CDN",
@@ -1023,7 +1147,9 @@
       "description": "Free SSL, CDN, DNS and DDoS protection for everyone. Project Alexandria offers extra help to open source.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "cloudflare",
+      "iconBg": "#F38020"
     },
     {
       "category": "SSL & CDN",
@@ -1032,7 +1158,9 @@
       "description": "Free, automated and open certificate authority.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "letsencrypt",
+      "iconBg": "#003A70"
     },
     {
       "category": "SSL & CDN",
@@ -1043,7 +1171,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "fastly",
+      "iconBg": "#FF282D"
     },
     {
       "category": "SSL & CDN",
@@ -1052,7 +1182,9 @@
       "description": "One-year SSL certificates for open source.",
       "tags": [],
       "status": "retired",
-      "note": "A 2005-era offer with no current programme. Use Let's Encrypt."
+      "note": "A 2005-era offer with no current programme. Use Let's Encrypt.",
+      "icon": "godaddy",
+      "iconBg": "#1BDBDB"
     },
     {
       "category": "SSL & CDN",
@@ -1061,7 +1193,9 @@
       "description": "Free, fast CDN for files from npm and GitHub, with no bandwidth limits.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "jsdelivr",
+      "iconBg": "#E84D3D"
     },
     {
       "category": "Design & Media",
@@ -1097,7 +1231,9 @@
       "description": "Free photos for any purpose, credit appreciated but not required.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "unsplash",
+      "iconBg": "#000000"
     },
     {
       "category": "Design & Media",
@@ -1124,7 +1260,9 @@
       "description": "Let people fund your project, with no fees on personal accounts.",
       "tags": [],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "githubsponsors",
+      "iconBg": "#EA4AAA"
     },
     {
       "category": "Funding",
@@ -1135,7 +1273,9 @@
         "limits"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "opencollective",
+      "iconBg": "#7FADF2"
     },
     {
       "category": "Funding",
@@ -1155,7 +1295,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "algolia",
+      "iconBg": "#003DFF"
     },
     {
       "category": "Utilities & Services",
@@ -1166,7 +1308,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "auth0",
+      "iconBg": "#EB5424"
     },
     {
       "category": "Utilities & Services",
@@ -1177,7 +1321,9 @@
         "request"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "docker",
+      "iconBg": "#2496ED"
     },
     {
       "category": "Utilities & Services",
@@ -1188,7 +1334,9 @@
         "limits"
       ],
       "status": "active",
-      "note": ""
+      "note": "",
+      "icon": "mailtrap",
+      "iconBg": "#22D172"
     },
     {
       "category": "Utilities & Services",
@@ -1215,7 +1363,9 @@
       "description": "Developer portals.",
       "tags": [],
       "status": "retired",
-      "note": "No current free open source offer could be found."
+      "note": "No current free open source offer could be found.",
+      "icon": "kong",
+      "iconBg": "#003459"
     }
   ]
 }
