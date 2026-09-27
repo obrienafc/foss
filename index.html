@@ -264,6 +264,11 @@
     flex-shrink: 0;
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);
   }
+  .mono img { width: 22px; height: 22px; display: block; }
+  .mono.brand { box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.06); }
+  @media (prefers-color-scheme: dark) {
+    .mono.brand { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14); }
+  }
   .card h3 { font-size: 17px; font-weight: 600; letter-spacing: -0.02em; line-height: 1.25; }
   .card .host { font-size: 13px; color: var(--label-3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .card .desc { font-size: 15px; color: var(--label-2); flex: 1; }
@@ -452,7 +457,9 @@
     if (s.status === 'changed') tags.push('<span class="tag changed">Changed</span>');
     return `<a class="card" href="${esc(s.url)}" target="_blank" rel="noopener">
       <div class="card-top">
-        <span class="mono" style="background:linear-gradient(145deg, ${color}, ${color}cc)" aria-hidden="true">${esc(initials(s.name))}</span>
+        ${s.icon
+          ? `<span class="mono brand" style="background:${esc(s.iconBg)}" aria-hidden="true"><img src="assets/icons/${esc(s.icon)}.svg" alt="" width="22" height="22" loading="lazy"></span>`
+          : `<span class="mono" style="background:linear-gradient(145deg, ${color}, ${color}cc)" aria-hidden="true">${esc(initials(s.name))}</span>`}
         <div style="min-width:0"><h3>${esc(s.name)}</h3><div class="host">${esc(host(s.url))}</div></div>
       </div>
       <p class="desc">${esc(s.description)}</p>

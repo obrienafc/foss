@@ -55,6 +55,7 @@ for (const c of categories) {
 
 md += `## No longer free or discontinued\n\nKept here so you know why they were removed.\n\n`;
 md += retired.map((s) => `- ~~[${s.name}](${s.url})~~ - ${s.note}`).join('\n') + '\n';
+md += `\n---\n\nBrand icons on the website come from [Simple Icons](https://simpleicons.org/) (CC0) and are refreshed with \`node scripts/build-icons.mjs\`. Trademarks belong to their owners.\n`;
 
 writeFileSync(new URL('README.md', root), md);
 console.log(`README.md: ${active.length} active, ${retired.length} retired, ${categories.length} categories`);

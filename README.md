@@ -221,3 +221,7 @@ Kept here so you know why they were removed.
 - ~~[Razuna](https://razuna.com/)~~ - Only a 30-day free trial, not a free offer.
 - ~~[Apiary](https://apiary.io/)~~ - Oracle is shutting Apiary down in September 2026.
 - ~~[Kong](https://konghq.com/)~~ - No current free open source offer could be found.
+
+---
+
+Brand icons on the website come from [Simple Icons](https://simpleicons.org/) (CC0) and are refreshed with `node scripts/build-icons.mjs`. Trademarks belong to their owners.
