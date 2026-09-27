@@ -1,0 +1,982 @@
+{
+  "updated": "2026-09-27",
+  "services": [
+    {
+      "category": "Version Control",
+      "name": "Bitbucket",
+      "url": "https://bitbucket.org/",
+      "description": "Git hosting, free for up to 5 users; community licences for open source projects.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Version Control",
+      "name": "Codeberg",
+      "url": "https://codeberg.org/",
+      "description": "Free as in freedom Git hosting for open source, run by a nonprofit association. Includes Codeberg Pages.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Version Control",
+      "name": "GitHub",
+      "url": "https://github.com/",
+      "description": "Free public and private repositories.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Version Control",
+      "name": "GitLab",
+      "url": "https://about.gitlab.com/solutions/open-source/",
+      "description": "Free repositories and CI/CD. The GitLab for Open Source programme gives qualifying projects top-tier features.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Hosting",
+      "name": "NuGet",
+      "url": "https://www.nuget.org/",
+      "description": ".NET package hosting.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Hosting",
+      "name": "PythonAnywhere",
+      "url": "https://www.pythonanywhere.com/",
+      "description": "Hosting for Python web apps.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Hosting",
+      "name": "SourceForge",
+      "url": "https://sourceforge.net/",
+      "description": "Git, Mercurial and SVN project hosting with downloads.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Hosting",
+      "name": "GitHub Pages",
+      "url": "https://pages.github.com/",
+      "description": "Static site hosting straight from a repository.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Public Cloud",
+      "name": "DigitalOcean",
+      "url": "https://www.digitalocean.com/open-source/credits-for-projects",
+      "description": "Yearly cloud credits for open source projects, tiered by project size.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Public Cloud",
+      "name": "OpenShift",
+      "url": "https://www.openshift.com/grants/",
+      "description": "Resource grants for open source and non-profit projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Public Cloud",
+      "name": "Heroku",
+      "url": "https://www.heroku.com/open-source-credit-program/",
+      "description": "Open Source Credit Program: monthly platform credits for 12 months.",
+      "tags": [
+        "request"
+      ],
+      "status": "changed",
+      "note": "The free dyno tier was removed in November 2022. Open source projects can apply for credits instead."
+    },
+    {
+      "category": "Public Cloud",
+      "name": "Vercel",
+      "url": "https://vercel.com/open-source-program",
+      "description": "Hobby tier with static and serverless hosting and a global CDN, plus an open source sponsorship programme.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Public Cloud",
+      "name": "Netlify",
+      "url": "https://www.netlify.com/open-source/",
+      "description": "Open Source plan with Pro features for qualifying projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Public Cloud",
+      "name": "Cloudflare Pages",
+      "url": "https://pages.cloudflare.com/",
+      "description": "Static and full-stack hosting on Cloudflare's network, generous free tier.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Documentation",
+      "name": "GitBook",
+      "url": "https://www.gitbook.com/",
+      "description": "Documentation platform, free for qualifying open source projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Documentation",
+      "name": "Read the Docs",
+      "url": "https://readthedocs.org/",
+      "description": "Builds, versions and hosts your docs. Free for open source (ad-supported).",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Documentation",
+      "name": "Atlassian Confluence",
+      "url": "https://www.atlassian.com/software/views/open-source-license-request",
+      "description": "Team wiki. Free Cloud licence for open source projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "GitHub Actions",
+      "url": "https://github.com/features/actions",
+      "description": "CI/CD built into GitHub. Free for public repositories on standard runners.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "AppVeyor",
+      "url": "https://www.appveyor.com/",
+      "description": "CI for Windows, Linux and macOS, free for open source.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Azure Pipelines",
+      "url": "https://learn.microsoft.com/azure/devops/pipelines/licensing/concurrent-jobs",
+      "description": "Cloud-hosted pipelines for Linux, macOS and Windows. Free parallel jobs for public projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "changed",
+      "note": "Since 2021 the free open source grant must be requested with a form."
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Bitrise",
+      "url": "https://bitrise.io/",
+      "description": "CI/CD for mobile apps. Public apps get Developer plan features free.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "CircleCI",
+      "url": "https://circleci.com/open-source/",
+      "description": "CI/CD with a free plan and extra build credits for open source.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Codecov",
+      "url": "https://about.codecov.io/",
+      "description": "Code coverage reporting, free for open source. Now part of Sentry.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Coveralls",
+      "url": "https://coveralls.io/",
+      "description": "Code coverage history, free for open source.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "DeployHQ",
+      "url": "https://www.deployhq.com/",
+      "description": "Continuous deployment from Git. DeployBot has merged into DeployHQ.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Knapsack Pro",
+      "url": "https://knapsackpro.com/",
+      "description": "Splits your test suite across parallel CI nodes.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Sauce Labs",
+      "url": "https://saucelabs.com/",
+      "description": "Cross-browser and mobile testing, free accounts for qualifying open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Scrutinizer",
+      "url": "https://scrutinizer-ci.com/",
+      "description": "CI and code analysis for GitHub and Bitbucket, free for open source.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Semaphore",
+      "url": "https://semaphore.io/open-source",
+      "description": "Hosted CI/CD, free for open source. The platform itself is open source (Apache 2.0) since 2025.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "TeamCity",
+      "url": "https://www.jetbrains.com/community/opensource/",
+      "description": "JetBrains CI server, free under the open source support programme.",
+      "tags": [
+        "request",
+        "strict"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Travis CI",
+      "url": "https://www.travis-ci.com/",
+      "description": "Hosted CI for GitHub.",
+      "tags": [
+        "request"
+      ],
+      "status": "changed",
+      "note": "travis-ci.org closed in 2021 and unlimited free builds ended. Open source projects can request OSS credits."
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Atlassian Bamboo",
+      "url": "https://www.atlassian.com/software/bamboo",
+      "description": "Self-hosted CI/CD.",
+      "tags": [],
+      "status": "changed",
+      "note": "Bamboo is now Data Center only, and Atlassian's open source licences mainly cover Cloud products. Check eligibility before relying on it."
+    },
+    {
+      "category": "Continuous Integration",
+      "name": "Codeship",
+      "url": "https://codeship.com/",
+      "description": "Hosted CI.",
+      "tags": [],
+      "status": "retired",
+      "note": "CloudBees shut CodeShip down on 31 January 2026."
+    },
+    {
+      "category": "Browser Testing",
+      "name": "BrowserStack",
+      "url": "https://www.browserstack.com/open-source",
+      "description": "Live and automated browser testing, free for open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Browser Testing",
+      "name": "TestingBot",
+      "url": "https://testingbot.com/",
+      "description": "Browser and mobile testing, free for open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Monitoring",
+      "name": "BugSnag",
+      "url": "https://www.bugsnag.com/product/open-source/",
+      "description": "Cross-platform error monitoring, free for open source and non-profits. Rebranded by SmartBear as Insight Hub in 2025.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Monitoring",
+      "name": "Datadog",
+      "url": "https://www.datadoghq.com/partner/open-source/",
+      "description": "Monitoring and observability for open source projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Monitoring",
+      "name": "Healthchecks.io",
+      "url": "https://healthchecks.io/",
+      "description": "Cron job monitoring with a free hobbyist plan.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Monitoring",
+      "name": "Hund",
+      "url": "https://hund.io/",
+      "description": "Hosted status pages, free for open source (email oss@hund.io).",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Monitoring",
+      "name": "Sentry",
+      "url": "https://sentry.io/for/open-source/",
+      "description": "Error and performance monitoring. Sponsored plans for open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "GitHub code scanning",
+      "url": "https://docs.github.com/code-security/code-scanning",
+      "description": "CodeQL security analysis, free for public repositories. The successor to LGTM.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "Dependabot",
+      "url": "https://github.com/dependabot",
+      "description": "Automatic dependency updates and security alerts on GitHub.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "Renovate",
+      "url": "https://github.com/apps/renovate",
+      "description": "Automated dependency updates for most languages and platforms.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "Codacy",
+      "url": "https://www.codacy.com/",
+      "description": "Automated code review for 40+ languages, free for open source.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "Qlty",
+      "url": "https://qlty.sh/",
+      "description": "Code quality and coverage, free for open source. The successor to Code Climate Quality.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "Snyk",
+      "url": "https://snyk.io/",
+      "description": "Finds and fixes vulnerabilities in dependencies, free for open source.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "SonarQube Cloud",
+      "url": "https://www.sonarsource.com/products/sonarqube/cloud/",
+      "description": "Code quality and security analysis, free for public projects. Formerly SonarCloud.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "LGTM",
+      "url": "https://lgtm.com/",
+      "description": "Continuous security analysis.",
+      "tags": [],
+      "status": "retired",
+      "note": "Shut down in December 2022. Use GitHub code scanning (CodeQL) instead."
+    },
+    {
+      "category": "Code Quality & Security",
+      "name": "QuantifiedCode",
+      "url": "https://www.quantifiedcode.com/",
+      "description": "Automated code review for Python.",
+      "tags": [],
+      "status": "retired",
+      "note": "The service has been offline for years."
+    },
+    {
+      "category": "Localization",
+      "name": "Crowdin",
+      "url": "https://crowdin.com/page/open-source-project-setup-request",
+      "description": "Localization platform, free for open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Localization",
+      "name": "Launchpad",
+      "url": "https://translations.launchpad.net/",
+      "description": "Community translation platform for open source projects.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Localization",
+      "name": "Localizely",
+      "url": "https://localizely.com/",
+      "description": "Translation management, free for open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Localization",
+      "name": "POEditor",
+      "url": "https://poeditor.com/",
+      "description": "Translation management, free for open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Localization",
+      "name": "Transifex",
+      "url": "https://www.transifex.com/open-source/",
+      "description": "Localization platform with an open source programme.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Localization",
+      "name": "Translation.io",
+      "url": "https://translation.io/",
+      "description": "Localization for Rails and other frameworks.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Localization",
+      "name": "Weblate",
+      "url": "https://hosted.weblate.org/hosting/",
+      "description": "Hosted continuous localization, free for libre projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Profiling",
+      "name": "Blackfire",
+      "url": "https://www.blackfire.io/open-source/free-subscriptions/",
+      "description": "PHP and Python profiler. Free yearly subscriptions for non-commercial open source.",
+      "tags": [
+        "request",
+        "strict"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Profiling",
+      "name": "YourKit",
+      "url": "https://www.yourkit.com/",
+      "description": "Java and .NET profiler, free licences for open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Email",
+      "name": "Helpmonks",
+      "url": "https://helpmonks.com/opensource",
+      "description": "Shared inbox and email management, free for open source projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Email",
+      "name": "EmailOctopus",
+      "url": "https://emailoctopus.com/pricing",
+      "description": "Free for up to 2,500 subscribers and 10,000 emails a month.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Email",
+      "name": "Brevo",
+      "url": "https://www.brevo.com/pricing/",
+      "description": "Free plan with 300 emails a day. Formerly Sendinblue.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Email",
+      "name": "Mailchimp",
+      "url": "https://mailchimp.com/pricing/",
+      "description": "Free plan for 250 contacts and 500 sends a month.",
+      "tags": [
+        "limits"
+      ],
+      "status": "changed",
+      "note": "Limits cut several times since 2022, most recently in January 2026 (it was 2,000 subscribers)."
+    },
+    {
+      "category": "Email",
+      "name": "SendGrid",
+      "url": "https://sendgrid.com/pricing/",
+      "description": "Transactional email.",
+      "tags": [],
+      "status": "retired",
+      "note": "The free plan was retired in July 2025. New accounts get a 60-day trial."
+    },
+    {
+      "category": "IDEs & Tools",
+      "name": "JetBrains IDEs",
+      "url": "https://www.jetbrains.com/community/opensource/",
+      "description": "IntelliJ IDEA, PyCharm, PhpStorm, RubyMine, WebStorm and more, free for core maintainers of qualifying projects.",
+      "tags": [
+        "request",
+        "strict"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "IDEs & Tools",
+      "name": "Visual Studio Community",
+      "url": "https://visualstudio.microsoft.com/vs/community/",
+      "description": "Full-featured IDE, free for open source and individual developers.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "IDEs & Tools",
+      "name": "VSCodium",
+      "url": "https://vscodium.com/",
+      "description": "Binary releases of VS Code without Microsoft branding or telemetry.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "IDEs & Tools",
+      "name": "1Password",
+      "url": "https://github.com/1Password/for-open-source",
+      "description": "Password manager for teams, free for open source projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "IDEs & Tools",
+      "name": "AppCode",
+      "url": "https://www.jetbrains.com/objc/",
+      "description": "Objective-C and Swift IDE.",
+      "tags": [],
+      "status": "retired",
+      "note": "JetBrains discontinued AppCode."
+    },
+    {
+      "category": "Project Management",
+      "name": "Acunote",
+      "url": "https://www.acunote.com/open-source",
+      "description": "Agile project management and Scrum, free for open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Management",
+      "name": "Atlassian Jira",
+      "url": "https://www.atlassian.com/software/views/open-source-license-request",
+      "description": "Issue tracking and project management. Free Cloud licence for open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Management",
+      "name": "Taiga",
+      "url": "https://taiga.io/",
+      "description": "Agile project management, free for public projects.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Management",
+      "name": "Teamwork",
+      "url": "https://www.teamwork.com/pricing/",
+      "description": "Project management with a limited free plan.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Management",
+      "name": "Trello",
+      "url": "https://trello.com/",
+      "description": "Kanban boards with a free plan.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Management",
+      "name": "YouTrack",
+      "url": "https://www.jetbrains.com/youtrack/",
+      "description": "Issue tracker, free for small teams and open source.",
+      "tags": [
+        "request",
+        "strict"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Management",
+      "name": "ZenHub",
+      "url": "https://www.zenhub.com/",
+      "description": "Project management inside GitHub, free for public repositories.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Management",
+      "name": "Discourse",
+      "url": "https://blog.discourse.org/2016/03/free-discourse-forum-hosting-for-community-friendly-github-projects/",
+      "description": "Hosted discussion forums for community-friendly open source projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Project Management",
+      "name": "Convas",
+      "url": "https://convas.io/open-source",
+      "description": "Public feedback pages where users suggest and upvote ideas, free for non-commercial open source.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Chat & Support",
+      "name": "Chatwoot",
+      "url": "https://www.chatwoot.com/pricing/",
+      "description": "Open source customer engagement suite, an alternative to Intercom and Zendesk.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Chat & Support",
+      "name": "Zulip",
+      "url": "https://zulip.com/for/open-source/",
+      "description": "Threaded team chat. Free Cloud Standard for open source projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "SSL & CDN",
+      "name": "Cloudflare",
+      "url": "https://www.cloudflare.com/lp/project-alexandria/",
+      "description": "Free SSL, CDN, DNS and DDoS protection for everyone. Project Alexandria offers extra help to open source.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "SSL & CDN",
+      "name": "Let's Encrypt",
+      "url": "https://letsencrypt.org/",
+      "description": "Free, automated and open certificate authority.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "SSL & CDN",
+      "name": "Fastly Fast Forward",
+      "url": "https://www.fastly.com/fast-forward",
+      "description": "Free CDN and edge services for open source projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "SSL & CDN",
+      "name": "GoDaddy",
+      "url": "https://www.godaddy.com/",
+      "description": "One-year SSL certificates for open source.",
+      "tags": [],
+      "status": "retired",
+      "note": "A 2005-era offer with no current programme. Use Let's Encrypt."
+    },
+    {
+      "category": "Design & Media",
+      "name": "Canva",
+      "url": "https://www.canva.com/pricing/",
+      "description": "Design tool with a free plan.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Design & Media",
+      "name": "Mixkit",
+      "url": "https://mixkit.co/",
+      "description": "Free stock video, music and sound effects, no attribution required.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Design & Media",
+      "name": "Openclipart",
+      "url": "https://openclipart.org/",
+      "description": "Public domain clipart.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Design & Media",
+      "name": "Unsplash",
+      "url": "https://unsplash.com/",
+      "description": "Free photos for any purpose, credit appreciated but not required.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Design & Media",
+      "name": "Fontpair",
+      "url": "https://www.fontpair.co/",
+      "description": "Helps you pair free, open source Google Fonts.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Design & Media",
+      "name": "Razuna",
+      "url": "https://razuna.com/",
+      "description": "Digital asset management.",
+      "tags": [],
+      "status": "retired",
+      "note": "Only a 30-day free trial, not a free offer."
+    },
+    {
+      "category": "Utilities & Services",
+      "name": "Algolia DocSearch",
+      "url": "https://docsearch.algolia.com/",
+      "description": "Hosted search for technical documentation, free for open source docs.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Utilities & Services",
+      "name": "Auth0",
+      "url": "https://auth0.com/",
+      "description": "Authentication and single sign-on with a free plan and open source sponsorship.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Utilities & Services",
+      "name": "Docker Sponsored Open Source",
+      "url": "https://www.docker.com/community/open-source/application/",
+      "description": "Unlimited pulls and a badge on Docker Hub for qualifying projects.",
+      "tags": [
+        "request"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Utilities & Services",
+      "name": "GitHub Sponsors",
+      "url": "https://github.com/sponsors",
+      "description": "Let people fund your project, with no fees on personal accounts.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Utilities & Services",
+      "name": "Mailtrap",
+      "url": "https://mailtrap.io/",
+      "description": "Email testing sandbox with a free plan.",
+      "tags": [
+        "limits"
+      ],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Utilities & Services",
+      "name": "SDKMAN!",
+      "url": "https://sdkman.io/",
+      "description": "Manage parallel versions of JVM SDKs.",
+      "tags": [],
+      "status": "active",
+      "note": ""
+    },
+    {
+      "category": "Utilities & Services",
+      "name": "Apiary",
+      "url": "https://apiary.io/",
+      "description": "API design and documentation.",
+      "tags": [],
+      "status": "retired",
+      "note": "Oracle is shutting Apiary down in September 2026."
+    },
+    {
+      "category": "Utilities & Services",
+      "name": "Kong",
+      "url": "https://konghq.com/",
+      "description": "Developer portals.",
+      "tags": [],
+      "status": "retired",
+      "note": "No current free open source offer could be found."
+    }
+  ]
+}
