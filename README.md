@@ -5,9 +5,9 @@
 <p align="center">A directory of services available free to open-source projects.</p>
 
 <p align="center">
-  <a href="https://github.com/obrienafc/freeforopensource/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/obrienafc/freeforopensource"></a>
-  <a href="https://github.com/obrienafc/freeforopensource/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/obrienafc/freeforopensource"></a>
-  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/obrienafc/freeforopensource"></a>
+  <a href="https://github.com/obrienafc/foss/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/obrienafc/foss"></a>
+  <a href="https://github.com/obrienafc/foss/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/obrienafc/foss"></a>
+  <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/obrienafc/foss"></a>
 </p>
 
 **Search and filter the list at [foss.patrickob.me](https://foss.patrickob.me).**
