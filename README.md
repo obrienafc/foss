@@ -10,7 +10,7 @@
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/github/license/obrienafc/foss"></a>
 </p>
 
-**Search and filter the list at [foss.patrickob.me](https://foss.patrickob.me).**
+**Search and filter the list at [foss.patrickob.tech](https://foss.patrickob.tech).**
 
 Last reviewed: 2026-09-27. Offers change often, so always check the provider's own terms.
 
