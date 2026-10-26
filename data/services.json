@@ -72,6 +72,15 @@
       "iconBg": "#1D9FD7"
     },
     {
+      "category": "Monitoring",
+      "name": "UptimeRobot",
+      "url": "https://uptimerobot.com/sponsorship/",
+      "description": "Uptime monitoring and status pages. Sponsored Solo or Team plan for one year for non-profits and their open source projects.",
+      "tags": ["request"],
+      "status": "active",
+      "note": ""
+    },
+    {
       "category": "Project Hosting",
       "name": "SourceForge",
       "url": "https://sourceforge.net/",
